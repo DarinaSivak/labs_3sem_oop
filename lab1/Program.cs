@@ -50,7 +50,7 @@ namespace lab1
             Console.WriteLine($"примитивные типы : {a}, {b}, {c}, {d}, {e}, {f}, {g}, {h}, {i}, {j}, {k}, {l}, {m}, {n}, {o}");
 
             //2b
-            byte bytenum = 6; //неявное приведение
+            byte bytenum = 6; //неявное приведение (расширение)
             ushort byteToUshort = bytenum;
             Console.WriteLine(byteToUshort);
             ushort ushortnum = 6;
@@ -82,7 +82,7 @@ namespace lab1
             Console.WriteLine("преобразование string в float: " + flo);
 
             int pack = 8; //упаковка и распаковка
-            Object object1 = pack;
+            Object object1 = pack; 
             int unpack = (int)object1;
             Console.WriteLine(unpack);
 
@@ -147,7 +147,7 @@ namespace lab1
             int indexOfChar = str2.IndexOf(ch);
             Console.WriteLine(indexOfChar);
 
-            string text = "разделение строки на массив подстрок"; //разделение строки на массив подстрок
+            string text = "разделение строки на массив подстрок"; 
             string[] words = text.Split(new char[] { ' ' });
             foreach (string s in words)
             {
@@ -234,9 +234,10 @@ namespace lab1
             {
                 Console.Write($"{el} ");
             }
-            Console.Write("\nвведите вещественные элементы массива: ");
 
             //3c
+            Console.Write("\nвведите вещественные элементы массива: ");
+
             float[][] jaggedArr = new float[3][];
             jaggedArr[0] = new float[2];
             jaggedArr[1] = new float[3];
@@ -297,7 +298,6 @@ namespace lab1
                     maxint += 1;
                     Console.WriteLine(maxint);
                 }
-                return;
             }
             void func2()
             {
@@ -307,7 +307,6 @@ namespace lab1
                     maxint += 1;
                     Console.WriteLine(maxint);
                 }
-                return;
             }
 
             Console.Write("введите номер функции: ");
