@@ -128,9 +128,75 @@ namespace lab4
 
             return new Stack(newStack, newStack.Length);
         }
-    }
+        
+        private Owner _owner1 = new Owner(4, "Darina", "organization");
+        
+        private class Date
+        {
+            private int day;
 
-    class Owner
+            private int Day
+            {
+                set
+                {
+                    if (value is > 0 and < 31)
+                    {
+                        day = value;
+                    }
+                    else
+                    {
+                        Console.WriteLine("неверно введенные данные");
+                    }
+                }
+                get => day;
+            }
+            private int month;
+
+            private int Month
+            {
+                set
+                {
+                    if (value is > 0 and < 12)
+                    {
+                        month = value;
+                    }
+                    else
+                    {
+                        Console.WriteLine("неверно введенные данные");
+                    }
+                }
+                get => month;
+            }
+            private int year;
+
+            private int Year
+            {
+                set
+                {
+                    if (value > 0)
+                    {
+                        year = value;
+                    }
+                    else
+                    {
+                        Console.WriteLine("неверно введенные данные");
+                    }
+                }
+                get => year;
+            }
+    
+            public Date(int day, int month, int year)
+            {
+                Day = day;
+                Month = month;
+                Year = year;
+            }
+            private Date date1 = new Date(21, 10, 2021);
+        }
+        
+    }
+    
+    public class Owner
     {
         private int id;
         private int ID { get; set; }
@@ -144,68 +210,6 @@ namespace lab4
             ID = id;
             Name = name;
             Organization = organization;
-        }
-    }
-    
-    class Date
-    {
-        private int day;
-
-        private int Day
-        {
-            set
-            {
-                if (value is > 0 and < 31)
-                {
-                    day = value;
-                }
-                else
-                {
-                    Console.WriteLine("неверно введенные данные");
-                }
-            }
-            get => day;
-        }
-        private int month;
-
-        private int Month
-        {
-            set
-            {
-                if (value is > 0 and < 12)
-                {
-                    month = value;
-                }
-                else
-                {
-                    Console.WriteLine("неверно введенные данные");
-                }
-            }
-            get => month;
-        }
-        private int year;
-
-        private int Year
-        {
-            set
-            {
-                if (value > 0)
-                {
-                    year = value;
-                }
-                else
-                {
-                    Console.WriteLine("неверно введенные данные");
-                }
-            }
-            get => year;
-        }
-    
-        public Date(int day, int month, int year)
-        {
-            Day = day;
-            Month = month;
-            Year = year;
         }
     }
 }
