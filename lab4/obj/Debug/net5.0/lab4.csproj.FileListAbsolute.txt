@@ -1,0 +1,16 @@
+D:\study\second\oop\labs\labs_3sem_oop\lab4\bin\Debug\net5.0\lab4.exe
+D:\study\second\oop\labs\labs_3sem_oop\lab4\bin\Debug\net5.0\lab4.deps.json
+D:\study\second\oop\labs\labs_3sem_oop\lab4\bin\Debug\net5.0\lab4.runtimeconfig.json
+D:\study\second\oop\labs\labs_3sem_oop\lab4\bin\Debug\net5.0\lab4.runtimeconfig.dev.json
+D:\study\second\oop\labs\labs_3sem_oop\lab4\bin\Debug\net5.0\lab4.dll
+D:\study\second\oop\labs\labs_3sem_oop\lab4\bin\Debug\net5.0\ref\lab4.dll
+D:\study\second\oop\labs\labs_3sem_oop\lab4\bin\Debug\net5.0\lab4.pdb
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.csproj.AssemblyReference.cache
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.AssemblyInfoInputs.cache
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.AssemblyInfo.cs
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.csproj.CoreCompileInputs.cache
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.dll
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\ref\lab4.dll
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.pdb
+D:\study\second\oop\labs\labs_3sem_oop\lab4\obj\Debug\net5.0\lab4.genruntimeconfig.cache

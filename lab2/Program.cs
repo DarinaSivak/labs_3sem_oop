@@ -19,14 +19,14 @@ namespace lab1
                 case 6: part6(); break;
             }
 
-            // (int, int, int, char) LocalFunction(int[] arr, string str)
-            // {
-            //     return (arr.Max(), arr.Min(), arr.Sum(), str[0]);
-            // }
+            (int, int, int, char) LocalFunction(int[] arr, string str)
+            {
+                return (arr.Max(), arr.Min(), arr.Sum(), str[0]);
+            }
             
-            // int[] arr1 = { 1, 6, -5, 3, 7, 20, 99, -24 };
-            // string txt = "Darina";
-            // Console.WriteLine(LocalFunction(arr1,txt));
+            int[] arr1 = { 1, 6, -5, 3, 7, 20, 99, -24 };
+            string txt = "Darina";
+            Console.WriteLine(LocalFunction(arr1,txt));
         }
 
         static void part1() 

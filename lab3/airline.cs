@@ -91,7 +91,7 @@ namespace lab3
 
         static airline() //статический конструктор
         {
-            Console.WriteLine("вызван статический конструктор");
+            Console.WriteLine("создан новый рейс");
         }
 
         public airline (string destination, int flightNumber, string typeOfAirplane, string departureTime, string weekday, string destinationRef, string weekdayRefOut) //конструктор с параметрами
